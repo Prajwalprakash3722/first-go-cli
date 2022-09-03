@@ -1,0 +1,716 @@
+[
+  {
+    "role": "branchCounsellor",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "Transaction",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "Transaction",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "Transaction",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "Transaction",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Transaction",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "Transaction",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "Transaction",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Transaction",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "Transaction",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "Transaction",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Transaction",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "Transaction",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "Transaction",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Transaction",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "Transaction",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "Transaction",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "Transaction",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "Transaction",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Transaction",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "Asset",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "Asset",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "Asset",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "Asset",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Asset",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "Asset",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "Asset",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "Asset",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "Asset",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Asset",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "Asset",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "Asset",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "Asset",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "Asset",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Asset",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "Asset",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "Asset",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "Asset",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "Asset",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Asset",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "Asset",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "Asset",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "Asset",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "Asset",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Asset",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "ApprovedComment",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "ApprovedComment",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "ApprovedComment",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "ApprovedComment",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "ApprovedComment",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "ApprovedComment",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "ApprovedComment",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "ApprovedComment",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "ApprovedComment",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "ApprovedComment",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "ApprovedComment",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "ApprovedComment",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "ApprovedComment",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "ApprovedComment",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "ApprovedComment",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "ApprovedComment",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "ApprovedComment",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "ApprovedComment",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "ApprovedComment",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "ApprovedComment",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "ApprovedComment",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "ApprovedComment",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "ApprovedComment",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "ApprovedComment",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "ApprovedComment",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "RejectedComment",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "RejectedComment",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "RejectedComment",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "RejectedComment",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "RejectedComment",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "RejectedComment",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "RejectedComment",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "RejectedComment",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "RejectedComment",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "RejectedComment",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "RejectedComment",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "RejectedComment",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "RejectedComment",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "RejectedComment",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "RejectedComment",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "RejectedComment",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "RejectedComment",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "RejectedComment",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "RejectedComment",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "RejectedComment",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "branchCounsellor",
+    "resource": "RejectedComment",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyTreasurer",
+    "resource": "RejectedComment",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "mainTreasurer",
+    "resource": "RejectedComment",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "societyCounsellor",
+    "resource": "RejectedComment",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "RejectedComment",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]
