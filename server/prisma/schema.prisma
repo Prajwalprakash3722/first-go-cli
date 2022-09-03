@@ -1,0 +1,75 @@
+datasource postgres {
+  provider = "postgresql"
+  url      = env("POSTGRESQL_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  createdAt DateTime @default(now())
+  firstName String?
+  id        String   @id @default(cuid())
+  lastName  String?
+  password  String
+  roles     String[]
+  updatedAt DateTime @updatedAt
+  username  String   @unique
+}
+
+model Transaction {
+  amount           Float
+  approvedComments ApprovedComment[]
+  assets           Asset[]
+  createdAt        DateTime                       @default(now())
+  date             DateTime
+  description      String
+  event            String
+  id               String                         @id @default(cuid())
+  lastStatus       Boolean
+  level            Int
+  rejectedComments RejectedComment[]
+  signedOff        String
+  society          String
+  transactiontype  EnumTransactionTransactiontype
+  updatedAt        DateTime                       @updatedAt
+}
+
+model Asset {
+  assetType     EnumAssetAssetType?
+  createdAt     DateTime            @default(now())
+  id            String              @id @default(cuid())
+  transaction   Transaction?        @relation(fields: [transactionId], references: [id])
+  transactionId String?
+  transactionId String
+  updatedAt     DateTime            @updatedAt
+  url           String
+}
+
+model ApprovedComment {
+  createdAt     DateTime     @default(now())
+  id            String       @id @default(cuid())
+  transaction   Transaction? @relation(fields: [transactionId], references: [id])
+  transactionId String?
+  updatedAt     DateTime     @updatedAt
+}
+
+model RejectedComment {
+  createdAt     DateTime     @default(now())
+  id            String       @id @default(cuid())
+  transaction   Transaction? @relation(fields: [transactionId], references: [id])
+  transactionId String?
+  updatedAt     DateTime     @updatedAt
+}
+
+enum EnumTransactionTransactiontype {
+  Open
+  Debit
+  Credit
+}
+
+enum EnumAssetAssetType {
+  Report
+  Bills
+}
